@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h3{
+    margin-top: -10px;
+}
+
+.col{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+.col1{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+}
+.col2{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+}

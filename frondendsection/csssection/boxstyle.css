@@ -1,0 +1,30 @@
+div{
+    border: 1px solid red;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: line-through;
+    text-align:left;
+}
+#first{
+    margin-left: 480px;
+    padding-left: 100px;
+    position: relative;
+}
+#second{
+    margin-top: 700px;
+    margin-left: 480px;
+    padding-left: 480px;
+    position: relative;
+    top: 200px;
+    left: 480px;
+}
+#third{
+    position: relative;
+    top: 600px;
+    
+}
+#inn{
+    position: absolute;
+    left: 2%;
+}

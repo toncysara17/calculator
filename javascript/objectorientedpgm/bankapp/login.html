@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="bankscript.js"></script>
+
+</head>
+<body>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        .login{
+            background-color: white;
+            width:300px;
+            position: absolute;
+            padding-bottom: 200px;
+            margin-left: 200px;
+            text-align: center;  
+
+    </style>
+
+
+    <form>
+        <div class="login">
+            <h2>Login Page</h2>
+
+            <input type="text" name="acno" id="acno" placeholder="accountnumber">
+            <br>
+
+            <input type="text" name="uname" id="uname" placeholder="username">
+            <br>
+
+            <input type="text" name="pswd" id="pswd" placeholder="password">
+    <br>
+            <button  onclick="Bank.login()">Login</button>
+
+
+
+        </div >
+    </form>
+</body>
+
+</html>

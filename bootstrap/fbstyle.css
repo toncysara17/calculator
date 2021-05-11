@@ -1,0 +1,24 @@
+body{
+    background-color: darkgray;
+}
+.container{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 300px;
+
+}
+.container1{
+    background-color: #fff;
+    position: absolute;
+    margin-left: 600px;
+    width: 300px;
+    top: 200px;
+    text-align: center;
+
+
+}
+h4{
+    text-align: center;
+}
+
